@@ -1,0 +1,17 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+scipy
+transformers
+datasets
+accelerate
+bitsandbytes
+openai
+peft
+pytorch
+pytorch-cuda
+sentencepiece
+tokenizers
+adapters

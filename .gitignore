@@ -1,0 +1,7 @@
+results/*
+scripts/*
+visualisations/*
+__pycache__
+visualise*
+*.csv
+*.tar.gz*
