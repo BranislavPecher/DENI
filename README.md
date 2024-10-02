@@ -1,5 +1,7 @@
 # Fighting Randomness with Randomness: Mitigating Optimisation Instability of Fine-Tuning using Delayed Ensemble and Noisy Interpolation
 
+This repository contains the experiments and the proposed mitigation method for the paper: "Fighting Randomness with Randomness: Mitigating Optimisation Instability of Fine-Tuning using Delayed Ensemble and Noisy Interpolation" accepted at EMNLP'24 findings ([preprint](https://arxiv.org/abs/2406.12471)).
+
 ## Dependencies and local setup
 
 The code in this repository uses Python. The required dependencies are specified in the `requirements.txt`. 
@@ -28,3 +30,21 @@ To allow for reproducibility we provide a script to run all the experiments from
 ## Evaluating the experiments
 
 For the evaluation purposes, we provide python script `process_randomness_fight_results.py` that will process all the results and create a single csv file `full_results.csv`.
+
+
+## Paper Citing
+
+```
+@inproceedings{pecher-etal-2024-fighting,
+    title = "On Sensitivity of Learning with Limited Labelled Data to the Effects of Randomness: Impact of Interactions and Systematic Choices",
+    author = "Pecher, Branislav  and
+      Cegin, Jan and
+      Belanec, Robert and
+      Simko, Jakub and
+      Srba, Ivan  and
+      Bielikova, Maria",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    year = "2024",
+    publisher = "Association for Computational Linguistics",
+}
+```
